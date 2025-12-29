@@ -24,6 +24,7 @@ function SearchInput({ onSearch }: Props) {
             placeholder="Search games..."
             variant="subtle"
             ref={ref}
+            width={1000}
           />
         </InputGroup>
       </form>
